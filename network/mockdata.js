@@ -1,0 +1,32 @@
+export const result = {
+  base: "stations",
+  clouds: { all: 15 },
+  cod: 200,
+  coord: { lat: -34.8119, lon: -58.1804 },
+  dt: 1697410392,
+  id: 3427430,
+  main: {
+    feels_like: 19.86,
+    grnd_level: 1011,
+    humidity: 76,
+    pressure: 1014,
+    sea_level: 1014,
+    temp: 19.84,
+    temp_max: 21.01,
+    temp_min: 17.93,
+  },
+  name: "Villa Giambruno",
+  sys: {
+    country: "AR",
+    id: 2008409,
+    sunrise: 1697361032,
+    sunset: 1697407574,
+    type: 2,
+  },
+  timezone: -10800,
+  visibility: 10000,
+  weather: [
+    { description: "algo de nubes", icon: "02n", id: 801, main: "Clouds" },
+  ],
+  wind: { deg: 111, gust: 11.43, speed: 6.01 },
+};
